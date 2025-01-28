@@ -2,8 +2,8 @@ const mineflayer = require('mineflayer');
 const http = require('http');
 
 // Define the server IP and port
-const serverIP = 'infinitesmpvelocity.falixsrv.me';  // Corrected IP from your original code
-const serverPort = 29167;
+const serverIP = '157.90.141.190';  // Corrected IP from your original code
+const serverPort = 31927;
 const version = '1.20.2';
 
 // Function to create and handle a bot
@@ -51,17 +51,17 @@ function createBot(username) {
 
 // Cycle for ServerManager1: Joins for 30 minutes, leaves for 5 minute
 function serverManager1Cycle() {
-    const bot = createBot('ServerManager1');
+    const bot = createBot('ServerManagerob1');
 }
 
 // Cycle for ServerManager2: Joins for 30 minutes, leaves for 5 minute
 function serverManager2Cycle() {
-    const bot = createBot('ServerManager2');
+    const bot = createBot('ServerManagerob2');
 }
 
 // Cycle for ServerManager22: Joins for 30 minutes, leaves for 5 minute
 function serverManager22Cycle() {
-    const bot = createBot('ServerManager22');
+    const bot = createBot('ServerManagerob22');
 }
 
 // Start all bot cycles with staggered start times
