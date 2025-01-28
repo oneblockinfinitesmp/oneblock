@@ -61,7 +61,7 @@ function serverManager2Cycle() {
 
 // Cycle for ServerManager22: Joins for 30 minutes, leaves for 5 minute
 function serverManager22Cycle() {
-    const bot = createBot('ServerManagerob22');
+    const bot = createBot('ServerManagerob3');
 }
 
 // Start all bot cycles with staggered start times
